@@ -1,0 +1,14 @@
+.date {
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 3%;
+
+    font-size: 5vw;
+    font-weight: 700;
+
+    color: #fff;
+
+    -webkit-animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
