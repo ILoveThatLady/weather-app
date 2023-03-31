@@ -13,7 +13,10 @@ const InputCity = () => {
             const data = await fetchWeather(query)
             setWeather(data)
             setQuery('')
-            router.push(`/forecast/${query}`)
+            router.push({
+              pathname: `/forecast/${query}`,
+              query: {data: JSON.stringify(data)}
+            })
         }
     }
 
