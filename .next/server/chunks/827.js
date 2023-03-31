@@ -2,13 +2,13 @@ exports.id = 827;
 exports.ids = [827];
 exports.modules = {
 
-/***/ 914:
+/***/ 693:
 /***/ ((module) => {
 
 // Exports
 module.exports = {
-	"date": "GetDate_date__IeCY8",
-	"slide-in-right": "GetDate_slide-in-right___02Pd"
+	"date": "GetDate_date__pjm4o",
+	"slide-in-right": "GetDate_slide-in-right__hvy7V"
 };
 
 
@@ -25,8 +25,8 @@ module.exports = {
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_getDate_GetDate_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(914);
-/* harmony import */ var _components_getDate_GetDate_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_getDate_GetDate_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_GetDate_GetDate_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(693);
+/* harmony import */ var _components_GetDate_GetDate_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_GetDate_GetDate_module_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -48,7 +48,7 @@ const GetDate = ()=>{
         setCurrentDate(formattedDate);
     }, []);
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: (_components_getDate_GetDate_module_css__WEBPACK_IMPORTED_MODULE_2___default().date),
+        className: (_components_GetDate_GetDate_module_css__WEBPACK_IMPORTED_MODULE_2___default().date),
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
             children: currentDate
         })

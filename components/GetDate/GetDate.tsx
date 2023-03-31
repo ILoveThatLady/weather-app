@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import styles from "@/components/getDate/GetDate.module.css"
+import styles from "@/components/GetDate/GetDate.module.css"
 
 const GetDate = () => {
     const [currentDate, setCurrentDate] = useState<string>('')
