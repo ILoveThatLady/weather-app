@@ -15,12 +15,14 @@ export default function Home() {
       <main className={styles.main}>
         <GetDate />
         <div className={styles.iconContainer}>
-          <Image src="/sun.svg" width={260} height={260} alt="sun icon" />
-          <Image src="/cloud.svg" width={330} height={250}  alt="cloud icon" style={{
-            position:"absolute",
-            bottom:"5%",
-          }} />
+          <div>
+            <Image className={styles.slideInRight}  src="/sun.svg" width={260} height={260} alt="sun icon" />
+          </div>
           <div className={styles.decorationFirst}></div>
+          <div>
+            <Image src="/cloud.svg" width={330} height={250}  alt="cloud icon" style={{
+            }} />
+          </div>
         </div>
         <div className={styles.titleCont}>
           <h1><strong>Where</strong> are we?</h1>

@@ -3,9 +3,10 @@ import Image from "next/image"
 
 type Props = {
     data: WeatherData
+    style: string
 }
 
-const SunriseSet = ({ data }: Props) => {
+const SunriseSet = ({ data, style }: Props) => {
     const sunset = new Date(data.sys.sunset * 1000)
     const sunrise = new Date(data.sys.sunrise * 1000)
 
@@ -28,7 +29,9 @@ const SunriseSet = ({ data }: Props) => {
     const sunriseTime = `${formattedSunriseHours}:${formattedSunriseMinutes} ${sunrisePeriod}`
 
   return (
-    <div>
+    <div style={{
+        backgroundColor:`${style}`
+    }}>
         <div>
             <Image src="/weather-sunset-down.png" alt="sunset icon" width={24} height={24}/>
             <div>
