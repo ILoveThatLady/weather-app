@@ -1,9 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/api/weather": "pages/api/weather.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.html",
   "/_document": "pages/_document.js",
-  "/forecast/[City]": "pages/forecast/[City].html",
-  "/404": "pages/404.html"
+  "/forecast/[City]": "pages/forecast/[City].js"
 }
