@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/h6FbaK7YfelIBwnOkA26R/_buildManifest.js",
-    "static/h6FbaK7YfelIBwnOkA26R/_ssgManifest.js"
+    "static/hewFTYRGzof-Jsae11otz/_buildManifest.js",
+    "static/hewFTYRGzof-Jsae11otz/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,8 +15,8 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/873-f0a097f596a51792.js",
-      "static/css/182ef49eb99c1542.css",
-      "static/chunks/pages/index-f2de0f13c9301361.js"
+      "static/css/d9487d5dee0d1d4b.css",
+      "static/chunks/pages/index-0cf5be430534a186.js"
     ],
     "/_app": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
@@ -36,8 +36,8 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/873-f0a097f596a51792.js",
-      "static/css/c157d389dc7a38a5.css",
-      "static/chunks/pages/forecast/[City]-a51eb09735d67bd1.js"
+      "static/css/70c3c93c7fdc8d2c.css",
+      "static/chunks/pages/forecast/[City]-c077ec72f676aba0.js"
     ]
   },
   "ampFirstPages": []

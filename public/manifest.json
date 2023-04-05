@@ -1,0 +1,55 @@
+{
+    "name": "Weather App 0.1.1",
+    "short_name": "Wapp",
+    "description": "A simple Weather application",
+    "icons": [
+        {
+            "src": "/cloud.svg",
+            "type": "image/svg",
+            "sizes": "450x290"
+        },
+        {
+            "src": "/dust.svg",
+            "type": "image/svg",
+            "sizes": "432x222"
+        },
+        {
+            "src": "/rain.svg",
+            "type": "image/svg",
+            "sizes": "440x480"
+        },
+        {
+            "src": "/snow.svg",
+            "type": "image/svg",
+            "sizes": "214x200"
+        },
+        {
+            "src": "/sun.svg",
+            "type": "image/svg",
+            "sizes": "300x300"
+        },
+        {
+            "src": "/thunder.svg",
+            "type": "image/svg",
+            "sizes": "447x420"
+        },
+        {
+            "src": "/touch-icon.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "/weather-sunset-down.svg",
+            "type": "image/svg",
+            "sizes": "21x20"
+        },{
+            "src": "/weather-sunset-up.svg",
+            "type": "image/svg",
+            "sizes": "21x20"
+        }
+    ],
+    "start_url": "/",
+    "theme_color": "#374557",
+    "background_color": "#374557",
+    "display": "minimal-ui"
+}

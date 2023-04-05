@@ -33,14 +33,14 @@ const SunriseSet = ({ data, style }: Props) => {
         backgroundColor:`${style}`
     }}>
         <div>
-            <Image src="/weather-sunset-down.png" alt="sunset icon" width={24} height={24}/>
+            <Image src="/weather-sunset-down.svg" alt="sunset icon" width={24} height={24}/>
             <div>
                 <p>Sunset</p>
                 <span> {sunsetTime} </span>
             </div>
         </div>
         <div>
-        <Image src="/weather-sunset-up.png" alt="sunrise icon" width={24} height={24}/>
+        <Image src="/weather-sunset-up.svg" alt="sunrise icon" width={24} height={24}/>
             <div>
                 <p>Sunrise</p>
                 <span> {sunriseTime} </span>
