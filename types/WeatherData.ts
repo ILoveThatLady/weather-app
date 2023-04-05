@@ -26,3 +26,7 @@ export type WeatherData = {
     }
     
   }
+
+export type Backgrounds = {
+  [key: string] : string
+}

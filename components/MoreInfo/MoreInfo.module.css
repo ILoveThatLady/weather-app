@@ -1,0 +1,31 @@
+
+.moreInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80%;
+    margin: 1vh;
+  
+}
+
+.moreInfo > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  height: 45%;
+  margin: 1vh;
+  flex-grow: 1;
+
+  text-align: center;
+
+  border-radius: 15px;
+
+}
+
+.moreInfo > :last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

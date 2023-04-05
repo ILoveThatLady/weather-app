@@ -15,7 +15,6 @@ __webpack_require__.r(__webpack_exports__);
 async function fetchWeather(query) {
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${"f8fe6389d7486cf3724e283f6fb7deaa"}&units=metric`);
     const data = await response.json();
-    console.log(data);
     return data;
 }
 
