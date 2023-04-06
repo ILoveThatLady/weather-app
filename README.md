@@ -1,6 +1,6 @@
 # This is a Weather App
 
-A simple weather app that uses the [`openweather API`](https://openweathermap.org/api).
+A simple weather app that uses the [`openweathermap API`](https://openweathermap.org/api).
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
