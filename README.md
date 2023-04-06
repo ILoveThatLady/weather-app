@@ -1,4 +1,4 @@
-#This is a Weather App
+# This is a Weather App
 
 A simple weather app that uses the [`openweather API`](https://openweathermap.org/api).
 
